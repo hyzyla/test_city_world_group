@@ -1,4 +1,4 @@
-# Test project City World Group
+# Test task for the developer's position in City World Group
 
 Simple socket server and GUI client.
 
