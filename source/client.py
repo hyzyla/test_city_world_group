@@ -13,6 +13,7 @@ class Client(QObject):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.host = host if not host else socket.gethostname()                        
         self.port = port
+        print(self.host)
         try:
             self.sock.connect((self.host, self.port))
             self.connected = True
